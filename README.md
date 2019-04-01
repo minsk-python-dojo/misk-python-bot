@@ -1,1 +1,1 @@
-# misk-python-bot
+# minsk-python-bot
