@@ -1,8 +1,18 @@
-class ConnectionError(Exception):
+class BotException(Exception):
     pass
 
-class APIConnectionError(Exception):
+
+class HTTPConnectionError(BotException):
     pass
 
-class IdentityError(Exception):
+
+class APIConnectionError(BotException):
+    pass
+
+
+class IdentityError(BotException):
+    pass
+
+
+class InvalidCommand(BotException):
     pass
