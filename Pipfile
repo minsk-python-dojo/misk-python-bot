@@ -5,11 +5,14 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+mypy = "*"
 
 [packages]
 requests = "*"
 pytest = "*"
 pylint = "*"
+mypy = "*"
+pytest-coverage = "*"
 
 [requires]
 python_version = "3.7"
